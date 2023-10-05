@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.main {
+  display: flex;
+  font-size: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+#cursor {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(244, 234, 234);
+  position: absolute;
+  transition: all ease 0.2s;
+  mix-blend-mode: difference;
+}
